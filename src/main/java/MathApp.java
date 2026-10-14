@@ -37,6 +37,23 @@ public class MathApp {
         circleArea = (float)(3.14 * (Math.pow(circleRadius, 2)));
         System.out.println("The area of a circle with the radius 7.25 is " + circleArea);
 
-        //
+        //4. Find and display the square root of a variable after it is set to 5.0
+
+        circleRadius = 5.0f;
+        System.out.println(Math.pow(circleRadius, 2));
+
+        //5. Find and display the distance between the points (5, 10) and (85, 50)
+
+        //double distanceTwoPoints = Math.sqrt((Math.pow((85-5), 2)) + (Math.pow((50-10), 2)));
+        System.out.println("The distance between the two points (5, 10) and (85, 50) is " + Math.sqrt((Math.pow((85-5), 2)) + (Math.pow((50-10), 2))));
+
+        //6. Find and display the absolute (positive) value of a variable after it is set to -3.8
+
+        double negativeNumber = -3.8;
+        System.out.println(negativeNumber * -1);
+
+        //7. Find and display a random number between 0 and 1
+
+        System.out.println(Math.random());
     }
 }
