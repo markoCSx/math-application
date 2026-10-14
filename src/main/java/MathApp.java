@@ -53,7 +53,24 @@ public class MathApp {
         System.out.println(negativeNumber * -1);
 
         //7. Find and display a random number between 0 and 1
+        System.out.println("Random number between 0 and 1 " + Math.random());
 
-        System.out.println(Math.random());
+        //8. Calculate how many minutes are in 24 days, use a variable for each value you
+        //calculate with.
+        // BONUS: How many milliseconds?
+
+        int days = 24;
+        int hours;
+        int minutes;
+        int seconds;
+        int milliseconds;
+        hours = days * 24;
+        minutes = hours * 60;
+        seconds = minutes * 60;
+        milliseconds = seconds * 1000;
+        System.out.println("Hours: " + hours);
+        System.out.println("Minutes: " + minutes);
+        System.out.println("Seconds: " + seconds);
+        System.out.println("Milliseconds: " + milliseconds);
     }
 }
