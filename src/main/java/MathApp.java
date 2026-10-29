@@ -40,7 +40,7 @@ public class MathApp {
         //4. Find and display the square root of a variable after it is set to 5.0
 
         circleRadius = 5.0f;
-        System.out.println(Math.pow(circleRadius, 2));
+        System.out.println(Math.sqrt(circleRadius));
 
         //5. Find and display the distance between the points (5, 10) and (85, 50)
 
@@ -50,7 +50,7 @@ public class MathApp {
         //6. Find and display the absolute (positive) value of a variable after it is set to -3.8
 
         double negativeNumber = -3.8;
-        System.out.println(negativeNumber * -1);
+        System.out.println(Math.abs(negativeNumber));
 
         //7. Find and display a random number between 0 and 1
         System.out.println("Random number between 0 and 1 " + Math.random());
